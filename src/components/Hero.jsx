@@ -49,7 +49,7 @@ export default function Hero() {
           <div className="flex flex-wrap gap-4 mt-10">
 
             <a
-                href={`${import.meta.env.BASE_URL}cv/CV NPORTO.pdf`}
+                href={`${import.meta.env.BASE_URL}cv/CV 07.pdf`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-red-700 hover:bg-slate-500 px-6 py-3 rounded-xl flex items-center gap-2 transition"
