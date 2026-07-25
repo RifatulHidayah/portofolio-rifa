@@ -95,7 +95,7 @@ export default function Hero() {
           className="flex justify-center"
         >
           <img
-            src="src\assets\images\rifa1.png"
+            src={profile}
             alt="Rifa"
             className="relative z-10 w-85"
             style={{
