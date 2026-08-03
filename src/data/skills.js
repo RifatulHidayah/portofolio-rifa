@@ -1,40 +1,55 @@
 export const skillCategories = [
   {
     id: 1,
-    title: "Data Analytics",
+    title: "Data & BI Analytics",
     icon: "📊",
     skills: [
       "Python",
       "SQL",
+      "Excel",
+      "Power BI",
+      "DAX",
+      "Power Query",
       "Data Cleaning",
       "Data Visualization",
-      "Machine Learning",
-      "Model Evaluation",
+      "Dashboard Development",
+      "Data Modeling",
     ],
   },
 
   {
     id: 2,
-    title: "Web Development",
+    title: "Machine Learning",
+    icon: "🤖",
+    skills: [
+      "Data Preprocessing",
+      "Exploratory Data Analysis",
+      "Imbalanced Data Handling",
+      "Feature Engineering",
+      "Predictive Modeling",
+      "Model Evaluation",
+      "Random Forest",
+      "SVM",
+      "Linear Regression",
+      "Decision Tree",
+      "Scikit-learn",
+    ],
+  },
+
+  {
+    id: 3,
+    title: "Web & Mobile Development",
     icon: "💻",
     skills: [
       "HTML",
       "CSS",
       "JavaScript",
       "Bootstrap",
-      "WordPress",
-      "Responsive Design",
-    ],
-  },
-
-  {
-    id: 3,
-    title: "Mobile Development",
-    icon: "📱",
-    skills: [
+      "Laravel Blade",
       "Flutter",
       "Dart",
-      "Mobile UI Development",
+      "Responsive Design",
+      "UI Development",
     ],
   },
 
@@ -47,8 +62,10 @@ export const skillCategories = [
       "MySQL",
       "Google Colab",
       "VS Code",
+      "Android Studio",
       "Excel",
-      "Canva",
+      "CSV",
+      "Power BI"
     ],
   },
 ];

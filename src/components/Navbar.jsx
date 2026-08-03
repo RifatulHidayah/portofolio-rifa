@@ -84,7 +84,7 @@ export default function Navbar() {
 
             <li>
               <Link
-                to="experiences"
+                to="experience"
                 smooth={true}
                 duration={500}
                 onClick={() => setMenuOpen(false)}

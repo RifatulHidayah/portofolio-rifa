@@ -40,10 +40,9 @@ export default function Hero() {
           </div>
 
           <p className="text-slate-300 mt-8 max-w-xl leading-8">
-            Passionate about data analytics, machine learning, and front-end development. 
-            Experienced in working with data, developing predictive models, and building responsive web applications. 
-            I enjoy solving problems through data-driven approaches while creating interfaces 
-            that are both functional and user-friendly.
+            Informatics graduate with experience in data analytics, machine learning, and software development projects.
+            Skilled in analyzing data, building predictive models, developing interactive dashboards, and creating responsive web applications. 
+            Focused on delivering technology solutions through data-driven insights and user-centered design.
           </p>
 
           <div className="flex flex-wrap gap-4 mt-10">

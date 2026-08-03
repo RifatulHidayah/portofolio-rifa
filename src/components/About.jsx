@@ -41,18 +41,14 @@ export default function About() {
           >
 
             <p className="text-slate-300 leading-9 text-lg">
-              I am a graduate of Informatics Engineering from Telkom University
-              with experience in processing and analysing 99.000+ records from 
-              the Susenas dataset to develop machine learning classification models 
-              using Random Forest and SVM, and front-end web development through 
-              internship project.
+              I am an Informatics graduate from Telkom University with experience in data analytics, machine learning, and front-end development. 
+              I have analyzed 99,000+ records from the Susenas dataset to develop classification models using Random Forest and SVM, 
+              applying data preprocessing, feature engineering, and model evaluation.
             </p>
 
             <p className="text-slate-300 leading-9 text-lg mt-6">
-              Demonstrated leadership as a Project Manager in a web development project
-              and strong ability to collaborate in multidisciplinary teams. 
-              Proficient in Python, SQL, data preprocessing, data visualization, 
-              and data-driven problem solving.
+              Experienced in building web applications and leading development projects as a Project Manager. 
+              Skilled in Python, Power BI, SQL, data visualization, and software development with a focus on creating data-driven solutions and user-friendly digital products.
             </p>
 
           </motion.div>

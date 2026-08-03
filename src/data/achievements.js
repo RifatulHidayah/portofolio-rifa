@@ -5,43 +5,43 @@ export const achievements = [
     number: "3.76",
     title: "GPA",
     description:
-      "Graduated with a Bachelor's degree in Informatics from Telkom University.",
+      "Bachelor's degree in Informatics from Telkom University with strong academic performance.",
   },
 
   {
     id: 2,
-    icon: "💼",
-    number: "2",
-    title: "Work Experiences",
+    icon: "📊",
+    number: "Power BI",
+    title: "BI Dashboard",
     description:
-      "Experience in front-end development, website management, and digital content creation.",
+      "Developed interactive dashboards using Power BI, DAX, and data modeling to deliver data-driven insights.",
   },
 
   {
     id: 3,
-    icon: "🚀",
-    number: "9",
-    title: "Projects",
+    icon: "🤖",
+    number: "99K+",
+    title: "ML Dataset",
     description:
-      "Completed projects in machine learning, web development, mobile applications, and IoT.",
+      "Processed and analyzed large-scale Susenas dataset to develop classification models using Random Forest and SVM.",
   },
 
   {
     id: 4,
     icon: "📜",
-    number: "5",
-    title: "Certificates",
+    number: "4+",
+    title: "Certifications",
     description:
-      "Professional certifications in Data Science, Python, and Machine Learning.",
+      "Completed certifications in Data Science, Python, SQL, and Machine Learning.",
   },
 
   {
     id: 5,
-    icon: "📊",
-    number: "2",
-    title: "ML Projects",
+    icon: "💻",
+    number: "6+",
+    title: "Projects",
     description:
-      "Built predictive models using machine learning techniques for real-world datasets.",
+      "Completed projects across business intelligence, machine learning, web, and mobile development.",
   },
 
   {
@@ -50,6 +50,6 @@ export const achievements = [
     number: "PM",
     title: "Leadership",
     description:
-      "Led project planning and system analysis activities in collaborative software projects.",
+      "Led project planning, requirement analysis, and system design activities in software development projects.",
   },
 ];
