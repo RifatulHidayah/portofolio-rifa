@@ -58,7 +58,7 @@ export default function Hero() {
 
                 <div className="absolute top-full left-0 hidden group-hover:block bg-white rounded-xl shadow-lg overflow-hidden pt-2">
                   <a
-                    href={`${import.meta.env.BASE_URL}cv\CV data ML.pdf`}
+                    href={`${import.meta.env.BASE_URL}cv/CV data ML.pdf`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block px-4 py-3 hover:bg-slate-100 text-black whitespace-nowrap"
@@ -67,7 +67,7 @@ export default function Hero() {
                   </a>
 
                   <a
-                    href={`${import.meta.env.BASE_URL}cv\CV developer.pdf`}
+                    href={`${import.meta.env.BASE_URL}cv/CV developer.pdf`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block px-4 py-3 hover:bg-slate-100 text-black whitespace-nowrap"
