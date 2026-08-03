@@ -48,16 +48,34 @@ export default function Hero() {
 
           <div className="flex flex-wrap gap-4 mt-10">
 
-            <a
-                href={`${import.meta.env.BASE_URL}cv/CV 07.pdf`}
-                target="_blank"
-                rel="noopener noreferrer"
+            <div className="relative group">
+              <button
                 className="bg-red-700 hover:bg-slate-500 px-6 py-3 rounded-xl flex items-center gap-2 transition"
-            >
+              >
                 <FaDownload />
                 Download CV
-            </a>
+              </button>
 
+              <div className="absolute hidden group-hover:block bg-white rounded-xl shadow-lg mt-2 overflow-hidden">
+                <a
+                  href={`${import.meta.env.BASE_URL}cv/CV data ML.pdf`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block px-4 py-3 hover:bg-slate-100 text-black whitespace-nowrap"
+                >
+                  Data & BI Analyst / Data Scientist CV
+                </a>
+
+                <a
+                  href={`${import.meta.env.BASE_URL}cv/CV developer.pdf`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block px-4 py-3 hover:bg-slate-100 text-black whitespace-nowrap"
+                >
+                  Front-End / System Analyst CV
+                </a>
+              </div>
+            </div>
             <a
                 href="#projects"
                 className="border border-slate-500 hover:bg-red-700 px-6 py-3 rounded-xl transition"
