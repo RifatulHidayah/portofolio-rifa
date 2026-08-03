@@ -56,7 +56,7 @@ export default function Hero() {
                 Download CV
               </button>
 
-                <div className="absolute hidden group-hover:block bg-white rounded-xl shadow-lg mt-2 overflow-hidden">
+                <div className="absolute top-full left-0 hidden group-hover:block bg-white rounded-xl shadow-lg overflow-hidden pt-2">
                   <a
                     href={`${import.meta.env.BASE_URL}public\cv\CV data ML.pdf`}
                     target="_blank"
