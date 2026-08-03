@@ -29,7 +29,7 @@ export default function ProjectCard({ project }) {
               <img
                 src={image}
                 alt={project.title}
-                className="w-full h-75 object-cover"
+                className="w-full h-75 object-contain"
               />
             </SwiperSlide>
           ))}
@@ -38,7 +38,7 @@ export default function ProjectCard({ project }) {
         <img
           src={project.images[0]}
           alt={project.title}
-          className="w-full h-75 object-cover"
+          className="w-full h-75 object-contain"
         />
       )}
 
