@@ -56,25 +56,25 @@ export default function Hero() {
                 Download CV
               </button>
 
-              <div className="absolute hidden group-hover:block bg-white rounded-xl shadow-lg mt-2 overflow-hidden">
-                <a
-                  href={`${import.meta.env.BASE_URL}cv/CV data ML.pdf`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="block px-4 py-3 hover:bg-slate-100 text-black whitespace-nowrap"
-                >
-                  Data & BI Analyst / Data Scientist CV
-                </a>
+                <div className="absolute hidden group-hover:block bg-white rounded-xl shadow-lg mt-2 overflow-hidden">
+                  <a
+                    href={`${import.meta.env.BASE_URL}public\cv\CV data ML.pdf`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block px-4 py-3 hover:bg-slate-100 text-black whitespace-nowrap"
+                  >
+                    Data & BI Analyst / Data Scientist CV
+                  </a>
 
-                <a
-                  href={`${import.meta.env.BASE_URL}cv/CV developer.pdf`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="block px-4 py-3 hover:bg-slate-100 text-black whitespace-nowrap"
-                >
-                  Front-End / System Analyst CV
-                </a>
-              </div>
+                  <a
+                    href={`${import.meta.env.BASE_URL}public\cv\CV developer.pdf`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block px-4 py-3 hover:bg-slate-100 text-black whitespace-nowrap"
+                  >
+                    Front-End / System Analyst CV
+                  </a>
+                </div>
             </div>
             <a
                 href="#projects"
